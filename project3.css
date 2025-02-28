@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "gilroy";
+}
+@font-face {
+    font-family: gilroy;
+    src: url(./gilroy/Gilroy-Light.ttf);
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    min-height: 100vh;
+}
+
+#top{
+    width: 100%;
+    min-height: 60vh;
+    background-image: url(https://images.unsplash.com/photo-1488278905738-514111aa236c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+
+#overlay{
+    position: relative;
+    width: 100%;
+    min-height: inherit;
+    background-color: #0000008f;
+}
+
+#text{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    bottom: 20%;
+    padding: 0 10vw;
+    display: flex;
+    align-items: center;
+}
+
+#text h1{
+    font-size: 5vw;
+    color: #fff;
+    font-weight: 900;
+}
+
+#rtext{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    align-items: center;
+}
+#rtext p {
+    font-size: 15px;
+    width: 35%;
+    color: #fff;
+    letter-spacing: 1px;
+}
+#rtext i {
+    color: white;
+    margin-right: 2px;
+}
+
+
+#bottom{
+    width: 100%;
+    min-height: 40vh;
+    display: flex;
+}
+
+#bone{
+    width: 25%;
+    min-height: inherit;
+    padding: 45px;
+}
+#bone h4{
+    color: grey;
+}
+#bone p{
+    margin-top: 20px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+#btwo{
+    width: 25%;
+    min-height: inherit;
+    background-image: url(https://images.unsplash.com/photo-1565214975484-3cfa9e56f914?q=80&w=927&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+}
+
+#bthree{
+    width: 20%;
+    min-height: inherit;
+}
+#bthree-up{
+    height: 50%;
+    width: 100%;
+    background-color: rgb(9, 101, 138);
+    padding: 40px;
+}
+#bthree-up h4{
+    color: #fff;
+}
+#bthree-up p{
+    margin-top: 20px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    color: #fff;
+}
+
+
+#bthree-down{
+    height: 50%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1464925257126-6450e871c667?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+}
+
+#bfour{
+    width: 30%;
+    min-height: inherit;
+    background-color: #303030;
+    padding: 40px;
+}
+#bfour h4{
+    color: #fff;
+    letter-spacing: 1px;
+}
+.notifi{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.notifi #profile{
+    width: 60px;
+    height: 60px;
+    background-image: url(https://images.unsplash.com/photo-1544551763-77ef2d0cfc6c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    margin-right: 25px;
+}
+.notifi p{
+    color: #fff;
+    width: 60%;
+}
